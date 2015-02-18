@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+
+/* Class applicable for all tags */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: auto;
+	overflow-y: scroll;
+}
+
+div.sectionBackground {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	height: 100%;
+	background:
+		url(http://static.wixstatic.com/media/41d000_440267230afd101737b396a2812b4d46.png_srz_p_1920_722_75_22_0.50_1.20_0.00_png_srz)
+		50% 0%/contain no-repeat no-repeat fixed rgb(229, 229, 229);
+}
