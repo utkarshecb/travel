@@ -30,3 +30,43 @@ div.sectionBackground {
 		url(http://static.wixstatic.com/media/41d000_440267230afd101737b396a2812b4d46.png_srz_p_1920_722_75_22_0.50_1.20_0.00_png_srz)
 		50% 0%/contain no-repeat no-repeat fixed rgb(229, 229, 229);
 }
+
+div.sectionRoot {
+	width: 980px;
+	padding-bottom: 1px;
+	min-height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+div.sectionStructure {
+	position: static;
+	width: 980px;
+	top: 0px;
+	height: 891px;
+}
+
+div.sectionHeader {
+	position: absolute;
+	top: 0px;
+	height: 167px;
+	width: 980px;
+	left: 0px;
+}
+
+div.sectionContainer {
+	position: absolute;
+	top: 167px;
+	height: 641px;
+	width: 980px;
+	left: 0px;
+}
+
+div.sectionFooter {
+	position: absolute;
+	top: 832px;
+	height: 59px;
+	width: 980px;
+	left: 0px;
+	bottom: auto;
+}
