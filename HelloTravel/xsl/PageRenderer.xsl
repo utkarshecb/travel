@@ -5,8 +5,6 @@
 	<xsl:output method="html" doctype-system="about:legacy-compat"
 		omit-xml-declaration="yes" encoding="UTF-8" indent="yes" />
 
-	<xsl:variable name="componentsets" select="/@empty-node-set" />
-	
 	<xsl:template match="Page">
 		<html>
 			<head>
@@ -16,8 +14,6 @@
 				<link rel="stylesheet" href="../css/PageMain.css" />
 			</head>
 			<body>
-				<!-- Store the section components -->
-				<xsl:variable name="componentsets" select="./Section" />
 				<xsl:apply-templates
 					select="document(concat('../templates/', @template, '.xml'))" />
 			</body>
@@ -33,9 +29,9 @@
 	</xsl:template>
 
 	<xsl:template match="SectionDefinition">
+		<xsl:variable name="sectionid" select="@id" />
 		<xsl:apply-templates select="*" />
-		<!-- Apply templates for the stored components -->
-		<xsl:value-of select="$componentsets" />
+		<xsl:apply-templates select="//Section[@id=$sectionid]/*" />
 	</xsl:template>
 
 	<xsl:template match="Component">
