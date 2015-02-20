@@ -31,7 +31,7 @@
 	<xsl:template match="SectionDefinition">
 		<xsl:variable name="sectionid" select="@id" />
 		<xsl:apply-templates select="*" />
-		<xsl:apply-templates select="//Section[@id=$sectionid]/*" />
+		<xsl:value-of select="//Section[@id=$sectionid]" />
 	</xsl:template>
 
 	<xsl:template match="Component">
