@@ -5,8 +5,11 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
 <script src="jquery-ui/external/jquery/jquery.js"></script>
 <script src="jquery-ui/jquery-ui.min.js"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+<script src="js/responsive.js"></script>
 </head>
 <body>
 	<!-- Backgound section -->
@@ -16,9 +19,34 @@
 		<!-- Structure section -->
 		<div class="sectionStructure">
 			<!-- Header section -->
-			<div class="sectionHeader">Header</div>
+			<div class="sectionHeader">
+				<!-- HdrContainer section -->
+				<div class="sectionHdrContainer">
+					<!-- HdrBanner section -->
+					<div class="sectionHdrBanner"></div>
+					<!-- HdrContent section -->
+					<div class="sectionHdrContent">
+						<div id="idComponentLogo" class="componentLogo">
+							<h1><a href="index.html">Hello Travel !!!</a></h1>
+							<p class="font_1">Hassle free travel</p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<!-- Container section -->
-			<div class="sectionContainer">Main Container</div>
+			<div class="sectionContainer">
+				<!-- Page section -->
+				<div class="sectionPageHome">
+					<div id="idComponentSearch" class="componentSearch">
+						<table width="100%">
+							<tr>
+								<td width="100%"><input id="idInputSearch" class="input_1"></input></td>
+								<td><button id="idButtonSearch" data-icon="ui-icon-search" class="button_1"></button></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
 			<!-- Footer section -->
 			<div class="sectionFooter">Footer</div>
 		</div>

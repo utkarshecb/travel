@@ -21,6 +21,21 @@ body {
 	overflow-y: scroll;
 }
 
+a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+td {
+	vertical-align: middle;
+}
+
+/* Template sections */
+div.sectionBackground, div.sectionHdrBanner {
+	z-index: -1;
+}
+
 div.sectionBackground {
 	width: 100%;
 	position: fixed;
@@ -54,6 +69,30 @@ div.sectionHeader {
 	left: 0px;
 }
 
+div.sectionHdrContainer {
+	position: absolute;
+	top: 40px;
+	height: 95px;
+	width: 980px;
+	left: 0px;
+}
+
+div.sectionHdrContent {
+	
+}
+
+div.sectionHdrBanner {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(239, 175, 0, 1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+	border-top: 0px solid rgba(93, 93, 93, 1);
+	border-bottom: 0px solid rgba(93, 93, 93, 1);
+}
+
 div.sectionContainer {
 	position: absolute;
 	top: 167px;
@@ -69,4 +108,50 @@ div.sectionFooter {
 	width: 980px;
 	left: 0px;
 	bottom: auto;
+}
+
+/* Page templates */
+div.sectionPageHome {
+	border: 0px solid rgba(93, 93, 93, 1);
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 0;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	padding: 35px;
+}
+
+/* Template components */
+div.componentLogo {
+	position: absolute;
+	top: 10px;
+	width: 365px;
+	left: 0px;
+}
+
+div.componentSearch {
+	/*padding: 5px;*/
+}
+
+/* Individual classes */
+.font_1 {
+	font: normal normal normal 16px/1.3em Play, sans-serif;
+	color: #2E2E2E;
+}
+
+.input_1 {
+	font: normal normal normal 16px/1.3em Play, sans-serif;
+	background-color: rgba(239, 175, 0, 1);
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: 0px solid rgba(239, 175, 0, 1);
+	color: rgba(46, 46, 46, 1);
+	border-radius: 0;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	height: 30px;
+	width: 100%;
+	padding: 5px;
+}
+.button_1 {
+	height: 30px;
+	width: 30px;	
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 }

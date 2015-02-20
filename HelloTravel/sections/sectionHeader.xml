@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SectionDefinition id="sectionHeader" type="TypeSectionHeader" locked="true">
+	<table class="slotFill">
+		<tr>
+			<td class="slotLeft"><Component id="componentLogo" /></td>
+			<td class="slotRight"><Component id="componentMenuHeader" /></td>
+		</tr>
+	</table>
+</SectionDefinition>
