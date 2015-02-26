@@ -29,9 +29,7 @@
 	</xsl:template>
 
 	<xsl:template match="SectionDefinition">
-		<xsl:variable name="sectionid" select="@id" />
 		<xsl:apply-templates select="*" />
-		<xsl:value-of select="//Section[@id=$sectionid]" />
 	</xsl:template>
 
 	<xsl:template match="Component">

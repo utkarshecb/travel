@@ -12,6 +12,7 @@ body {
 }
 
 .slotBackground {
+	z-index: -1;
 	position: fixed;
 	top: 0px;
 	background-image:
@@ -31,7 +32,11 @@ body {
 	border: 0px solid rgba(93, 93, 93, 1);
 	background-color: rgba(255, 255, 255, 1);
 	border-radius: 0;
+	/* To be replaced in resolution dependent styles */
+	width: 980px;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .slotHeader {
@@ -40,4 +45,19 @@ body {
 	background-color: rgba(239, 175, 0, 1);
 	border-radius: 0;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.slotCenter {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;	
+}
+
+@media screen and (max-width: 980px) {
+    .slotContent {
+        width: 100%;
+        box-shadow: none;
+		margin-left: initial;
+	    margin-right: initial;
+    }
 }

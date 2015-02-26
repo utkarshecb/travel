@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SectionDefinition id="sectionContentHome" type="TypeSectionContent" locked="false">
+	<div class="slotContent">
+		<Component id="componentLogo" />
+	</div>
+</SectionDefinition>

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ComponentDefinition id="componentLogo" type="TypeComponentLogo">
-	<!-- <Image path="http://www.google.co.in/images/srpr/logo11w.png" />
-	<Text value="Google" /> -->
-	Manish Joshi
+	<img src="../images/logo/logo.jpg" style="slotCenter"/>
 </ComponentDefinition>

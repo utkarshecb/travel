@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PageTemplate id="SingleColumnPage">
+	<Section id="sectionBackground" />
+	<div class="slotMain">
+		<Section id="sectionContentHome" />
+	</div>
+</PageTemplate>
