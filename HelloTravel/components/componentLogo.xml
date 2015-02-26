@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ComponentDefinition id="componentLogo" type="TypeComponentLogo">
-	<img src="../images/logo/logo.jpg" style="slotCenter"/>
+	<img src="../images/logo/logo.jpg" class="slotCenter"/>
 </ComponentDefinition>
